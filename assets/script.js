@@ -1,3 +1,8 @@
+let copyrightText = document.querySelector('.copyright-text')
+let date = new Date().getFullYear().toString();
+copyrightText.innerHTML += " " + date;
+
+
 function scopoColor() {
     let colorAraay = [
         color1 = '#3182ce',
